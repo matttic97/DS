@@ -1,0 +1,76 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8x]{inputenc}   % omogoča uporabo slovenskih črk kodiranih v formatu UTF-8
+\usepackage[slovene]{babel}    % naloži, med drugim, slovenske delilne vzorce
+\usepackage{hyperref}
+
+
+\title{Optična razpoznava notnih znakov}
+\author{Matic Isovski\\
+mi6568@student.uni-lj.si\\
+\ \\
+možni MENTOR: doc. dr. Luka Šajn \\
+Fakulteta za računalništvo in informatiko\\
+Univerze v Ljubljani
+\date{\today}         
+}
+
+
+\begin{document}
+\maketitle
+
+\section{Motiv za diplomsko nalogo}
+
+Že od majhnih nog se ukvarjam z glasbo. Obiskoval sem glasbeno šolo, sodeloval pri raznih orkestrih, glasbenih skupinah, projektih itd. Sledilo je dolgo obdobje, ko se več nisem želel učiti igranja inštrumenta po notah in sem postal samouk. Sedaj mi je seveda žal, saj v branju not več nisem vešč in mi branje vrealnem času lahko predstavlja problem. Aplikacija, ki bi omogočala razpoznavo not, bi mi zelo pomagala; ne samo z prišparanjem sramote, temveč tudi pri učenju. Naloge sicer ne bom pisal letos, se mi pa zdi tematika zelo zanimiva, bonus je pa to, da bi lahko prišlo zelo prav. 
+
+\section{Ali je že bila kakšna diplomska ali magistrska naloga na podobno temo?}
+
+O podobni tematiki je Rok Petek napisal magistersko delo in sicer: Optična razpoznava znakov v slikah naravnih scen \cite{diploma}, pod mentorstvom doc. dr. Luke Šajna. Tudi on se je odločil za uporabo programskega jezika Python ter knjižnice OpenCV.
+
+
+\section{Ali se je s to tematiko že ukvarjal kakšen učitelj na FRI?}
+
+Prav s to tematiko še ne, je pa doc. dr. Luka Šajn, kot asistent v laboratoriju za računalniški vid, izdal že veliko člankov s podobno tematiko.
+V članku o obdelavi slik in strojnega učenja za popolnoma avtomatizirano verjetnostno vrednotenje medicinskih slik \cite{article1}, je z soavtorjem predstavil rezultate študije o uporabi slik in metod podatkovnega rudarjenja v medicini.
+Izdal je tudi članek \cite{article2}, v katerem je predstavljenih devet mobilnih sistemov za prepoznavanja hrane na podlagi njihove sistemske arhitekture in njihovih jedrnih lastnosti.
+
+
+\section{Kaj je konkretni cilj diplomske naloge in kateri so glavni koraki do tega cilja?}
+
+Cilj diplomske naloge je podrobrobnejša predstavitev tehnologije optične prepoznave znakov, uporabe le te pri prepoznavi notnih zapisov, ter implementacija preproste mobilne aplikacije, ki bi lahko pomagala ljudem, ki imajo težavo z branjem not "in real time".
+Do končne implementacije mobilne aplikacije, bi vodili naslednji koraki:
+\begin{itemize}
+\item
+Najprej bi se osredotočil na uporabniške zahteve in izkušnjo. Pojasnil bi realno problematiko in na kratko obrazložil zakaj in kako bi tehnologija optične prepoznave znakov omogočala rešitev problematike.
+\item
+Prvemu koraku bi sledil podroben opis OPZ (OCR) tehnologije. Opisal bi tudi vedi umetne inteligence ter strojnega učenja, saj iz nju tehnologija tudi izhaja. Razlaga bi bila tudi prikazana ob primerih uporabe, da bo pojasnitev lažja in bolj razumljiva.
+\item
+Sledila bi uporaba in prilagoditev tehnologije, da bi se lahko uporabljala na danem primeru. Predstavil bi tudi semantično analizo - kaj je, zakaj in kako jo uporabiti.
+\item
+Implementacija aplikacije, ki bi uporabniku omogočala pretvorbo slike notnega zapisa v "uporabno" obliko zapisa (toni, tablatura, midi) - z omejitvijo.
+\end{itemize}
+
+
+\section{S kakšnimi orodji boš prišel do cilja?}
+
+Odločil sem se, da bom uporabljal programski jezik Python ter knjižnico OpenCV za obdelovanje slik ter uporabo algoritmov za razpoznavo znakov.
+
+
+\section{Kako boš preizkusil rešitev ali ustreza zadanim ciljem?}
+
+Zgradil bom preposto aplikacijo, ki bo uporabniku omogočala pretvorbo slike notnega zapisa v "uporabno" obliko zapisa (npr. toni).
+
+
+\section{Zaključek: zakaj je izbrani oz. željeni 
+mentor primeren za predlagano temo?}
+
+Za mentorja bi si lahko izbral doc. dr. Luka Šajn, saj ima veliko izkušenj na tem področju, izdal je tudi veliko člankov, ki bi mi tudi lahko bili zelo v pomoč, tako pri samem razumevanju področja, kot tudi pri implementaciji.
+
+\bibliographystyle{plain}
+\bibliography{literatura}
+
+\end{document}  
+
+
+
+

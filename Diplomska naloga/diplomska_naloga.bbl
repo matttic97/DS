@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{naomr}
+Jingya~Wang Christopher~Raphael.
+\newblock New approaches to optical music recognition.
+\newblock {\em ISMIR}, 2011.
+
+\bibitem{tcomr}
+Tim~Bell David~Bainbridge.
+\newblock The challenge of optical music recognition.
+\newblock {\em Language Resources and Evaluation}, 2001.
+
+\bibitem{omss}
+P.~Nesi P.~Bellini, I.~Bruno.
+\newblock {\em Optical music sheet segmentation}.
+\newblock IEEE, 2002.
+
+\end{thebibliography}

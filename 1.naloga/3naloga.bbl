@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{article1}
+Matjaž~Kukar Luka~Šajn.
+\newblock Computer methods and programs in biomedicine.
+\newblock {\em Image processing and machine learning for fully automated
+  probabilistic evaluation of medical images}, 2010.
+
+\bibitem{diploma}
+Rok Petek.
+\newblock Optična razpoznava znakov v slikah naravnih scen.
+\newblock Magisterska naloga, Fakulteta za računalništvo in informatiko,
+  Univerza v Ljubljani, 2016.
+
+\bibitem{article2}
+Luka~Šajn Simon~Knez.
+\newblock Food object recognition using a mobile device: State of the art.
+\newblock {\em International Conference on Image Analysis and Processing},
+  2015.
+
+\end{thebibliography}

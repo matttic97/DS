@@ -1,0 +1,19 @@
+\babel@toc {english}{}
+\babel@toc {slovene}{}
+\contentsline {chapter}{Povzetek}{}{chapter*.2}%
+\babel@toc {english}{}
+\contentsline {chapter}{Abstract}{}{chapter*.3}%
+\babel@toc {slovene}{}
+\contentsline {chapter}{\numberline {1}Uvod}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Motivacija}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Pregled podro\IeC {\v c}ja}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Uporabljene metode}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Python}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}OpenCV}{7}{section.4.2}%
+\contentsline {chapter}{\numberline {5}OCR}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {6}OMR}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Razvoj aplikacije}{13}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Priprava procesorja slike in modela za klasifikacijo}{13}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Testiranje}{13}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Sklepne ugotovitve}{15}{chapter.8}%
+\contentsline {chapter}{Literatura}{17}{chapter.8}%

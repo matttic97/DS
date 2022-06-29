@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{tcomr}
+Tim~Bell David~Bainbridge.
+\newblock The challenge of optical music recognition.
+\newblock {\em Language Resources and Evaluation}, 2001.
+
+\bibitem{cgm}
+P.R.Bono D.B.Arnold.
+\newblock {\em CGM and CGI: Metafile and Interface Standards for Computer
+  Graphics}.
+\newblock Springer, Vienna, 1988.
+
+\bibitem{cgpp}
+T.~Ertl.
+\newblock {\em Computer Graphics — Principles and Practice}.
+\newblock Springer, Vienna, 1996.
+
+\bibitem{omudt}
+A.~K. {Jain}, {Yu Zhong}, and S.~{Lakshmanan}.
+\newblock Object matching using deformable templates.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  18(3):267--278, 1996.
+
+\bibitem{orms}
+A.~K. {Jain}, {Yu Zhong}, and S.~{Lakshmanan}.
+\newblock Optical recognition of music symbols.
+\newblock {\em International Journal on Document Analysis and Recognition},
+  page 19–31, 2010.
+
+\bibitem{distinctive}
+David Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em International Journal of Computer Vision volume}, 2004.
+
+\bibitem{omss}
+P.~Nesi P.~Bellini, I.~Bruno.
+\newblock {\em Optical music sheet segmentation}.
+\newblock IEEE, 2002.
+
+\bibitem{improving}
+Florent Perronnin, Jorge S{\'a}nchez, and Thomas Mensink.
+\newblock Improving the fisher kernel for large-scale image classification.
+\newblock In Kostas Daniilidis, Petros Maragos, and Nikos Paragios, editors,
+  {\em Computer Vision -- ECCV 2010}, pages 143--156, Berlin, Heidelberg, 2010.
+  Springer Berlin Heidelberg.
+
+\bibitem{article2}
+Luka~Šajn Simon~Knez.
+\newblock Food object recognition using a mobile device: State of the art.
+\newblock {\em International Conference on Image Analysis and Processing},
+  2015.
+
+\end{thebibliography}

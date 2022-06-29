@@ -1,0 +1,153 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8x]{inputenc}   % omogoča uporabo slovenskih črk kodiranih v formatu UTF-8
+\usepackage[slovene]{babel}    % naloži, med drugim, slovenske delilne vzorce
+
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+
+\title{Optična razpoznava notnih znakov\\
+\textsc{dispozicija diplomske naloge}}
+\author{Matic Isovski\\
+mi6568@student.uni-lj.si\\
+\ \\
+MENTOR: doc. dr. Luka Šajn \\
+Fakulteta za računalništvo in informatiko\\ 
+Univerza v Ljubljani
+\date{\today}         
+}
+
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Dispozicijo diplomske naloge odprem z motivacijo za izbrano temo. Sledi navajanje nekaj sorodnih del, kratek opis, utemeljitev povezave le teh z mojim diplomskim delom, ter izbira mentorja. Nadaljujem z predvidenimi prispevki naloge ter uporabljeno metologijo. Proti koncu je predstavljena porazdelitev dela (aktivnosti, podaktivnosti ter njihova obdobja trajanja). Zaključim pa z preliminarnim kazalom diplomske naloge ter seznamom uporabljene literature.
+\end{abstract}
+
+
+\section{Motivacija za izbrano diplomsko temo}
+
+Že od mladih nog se ukvarjam z glasbo. Obiskoval sem glasbeno šolo, sodeloval pri raznih orkestrih, glasbenih skupinah, projektih ipd. Sledilo je obdobje, ko se več nisem želel učiti igranja inštrumenta po notah, želel sem izuriti smisel za improvizacijo. Sedaj več nisem toliko vešč v branju not in mi lahko to predstavlja velik problem ob novem ali težjem materialu. Aplikacija, ki bi omogočala razpoznavo not, bi mi zelo pomagala, tako pri delu, kakor pri učenju.
+
+\subsection{Pregled področja in sorodnih del}
+
+Nekaj sorodnih del:
+\begin{itemize}
+\item
+Knjiga "Optical music sheet segmentation" \cite{omss}, v kateri je predstavljen je segmentacijski modul sistema O / sup 3 / MR (objektno orientirano optično prepoznavanje glasbe). Predlagani pristop temelji na sprejetju projekcij za ekstrakcijo osnovnih simbolov, ki predstavljajo grafični element glasbene notacije.
+\item
+Članek "The Challenge of Optical Music Recognition" \cite{tcomr}, opisuje izzive, ki jih predstavlja optično prepoznavanje glasbe. Najprej je opisan problem, nato pa je predstavljen splošen okvir za programsko opremo, ki poudarja ključne točke, ki jih je treba rešiti: identifikacija osebja, prepoznavanje glasbenih predmetov, klasifikacija glasbenih funkcij in glasbena semantika.
+\item
+Članek "New approaches to Optical Music Recognition" \cite{naomr}, opisujejo sistem se osredotoča na prepoznavo sestavljenih simbolov (akordi in skupine snopov).
+\end{itemize}
+
+
+\subsection{Zakaj je predlagani mentor primeren}
+
+Za mentorja bi si lahko izbral doc. dr. Luko Šajna, saj ima veliko izkušenj na tem področju, izdal je tudi veliko člankov, ki bi mi tudi lahko bili zelo v pomoč, tako pri samem razumevanju področja, kot tudi pri implementaciji.
+
+
+\section{Predvideni prispevki diplomske naloge}
+
+Rezultat diplomske naloge bo podrobrobnejše razumevanje tehnologije optične prepoznave znakov, optične prepoznave glasbenih zapisov ter poznava primerov uporabe. Prav tako bo izdelana preprosta mobilna aplikacija, ki bo uporabljala implementiran sistem razpoznave. Uporabnik bo slikal notni zapis in kot rezultat dobil njemu "uporabno" obliko zapisa (midi, tablature, ime tonov, itd.).
+
+
+\section{Uporabljena metodologija}
+
+Pri izdelavi sistema za prepoznavo notnih znakov bom uporabljal programski jezik Python, s knjižnico OpenCV si bom pomagal pri obdelovanju slik, konvolucijsko mrežo pa bom zgradil z uporabo knjižnice TensorFlow.
+
+
+\section{Razdelitev potrebnega dela na aktivnosti}
+
+\begin{enumerate}
+\item Izbira tematike (opravljeno)
+
+Namen aktivnosti je dobro premisliti o zanimivih problematikah in izbrati temo, o kateri bi pisal v diplomski nalogi. Predvideno trajanje: 1 dan.
+\item Izbira mentorja (opravljeno)
+
+Namen aktivnosti je pregled dela in publikacij profesorjev na FRI, ter izbrati mentorja, katerega usmeritev in delo je najbolj podobno izbrani tematiki. Predvideno trajanje: 1 dan.
+\item Pisanje dispozicije
+
+Namen aktivnosti je priprava dispozicie diplomskega dela. Predvideno trajanje: 4 dni.
+
+\item Pisanje diplomske naloge
+	\begin{enumerate}
+	\item Teorija
+	
+	Namen podaktivnosti je pregled vseh virov, ki jih bom uporabil, ter iz njih črpati vsebino, ki je povezana z mojo tematiko. Predvideno trajanje: 2 meseca.
+	\item Implementacija
+	
+	Namen podatkivnosti je razvijanje in testiranje aplikacije, ki uporablja OMR tehnologijo. Predvideno trajanje: 3 mesece.
+	\end{enumerate}
+	
+\item Posvet z mentorjem 
+
+Namen aktivnosti je zadnji skupni pregled diplomskega dela z mentorjem ter pogovor o zagovoru. Predvideno trajanje: 1 teden.
+
+\item Priprava na zagovor
+
+Namen aktivnosti je priprava predstavitve ter časovna vaja. Predvideno trajanje: 1 dan.
+\item Zagovor
+
+Namen aktivnosti je zagovor diplomske naloge ter odgovarjanje na vprašanja. Predvideno trajanje: 15 minut.
+\end{enumerate}
+
+\section{Preliminarno kazalo}
+
+\begin{enumerate}
+\item Uvod
+
+Kratka uvodna predstavitev diplomske naloge.
+\item Python
+
+Prestavitev programskega jezika Python, utemeljitev izbire jezika pri implementaciji sistema.
+
+\item OpenCV
+
+Prestavitev knjižnice OpenCV, utemeljitev izbire knjižnjice pri implementaciji sistema.
+
+\item TensorFlow
+
+Prestavitev platforme Tensorflow, utemeljitev izbire knjižnjice pri implementaciji sistema.
+
+
+\item OCR tehnologija
+\begin{enumerate}
+\item Predstavitev tehnologije
+
+\item Podobnosti in razlike OCR in OMR
+\end{enumerate}
+
+\item OMR tehnologija
+
+Predstavitev tehnologije
+
+\item Implementacija
+\begin{enumerate}
+\item Prva faza (primerjanje predlog, idealno okolje)
+
+\item Druga faza: konvolucijska mreža
+\end{enumerate}
+
+\item Testirarnje
+
+Preizkus in ocena sistema z notami, uporabljenimi vsakodnevno.
+
+\item Zaključek
+
+Komentar na rezultate, zaključna misel in zahvala mentorju ter vsem, ki so kakorkoli prispevali k diplomskemu delu.
+\end{enumerate}
+
+
+\bibliographystyle{plain}
+\bibliography{literatura}
+
+\end{document}  
+
+
+
+
